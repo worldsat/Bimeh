@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.asiabimeh.bimeh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.FirstActivity" />
+        <activity android:name=".Activity.SignUpActivity" />
+        <activity android:name=".Activity.GetPersonalActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.FinanceListActivity" />
+        <activity android:name=".Activity.EstelamActivity" />
+        <activity android:name=".Activity.BimehSaderehActivity" />
+        <activity android:name=".Activity.OmrVaPasandazActivity" />
+        <activity android:name=".Activity.EducationActivity" />
+        <activity android:name=".Activity.AboutActivity" />
+        <activity android:name=".Activity.test" />
+        <activity android:name=".Activity.TakmilEtelaatActivity" />
+        <activity android:name=".Activity.SabteBimehActivity" />
+        <activity android:name=".Activity.SetProfileActivity" />
+        <activity android:name=".Activity.BimehListActivity" />
+        <activity android:name=".OtherClass.croping_image" />
+        <activity android:name=".Activity.setProfile2Activity" />
+        <activity android:name=".Activity.ForoshGozashteActivity" />
+        <activity android:name=".Activity.SabteBimehOmrActivity" />
+        <activity android:name=".Activity.acountBanking" />
+        <activity android:name=".Activity.ForoshGozashteListActivity" />
+        <activity android:name=".Activity.KarmozdShowActivity" />
+        <activity android:name=".Activity.PadashActivity" />
+        <activity android:name=".Activity.ChartActivity" />
+        <activity android:name=".Activity.about_designer" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.DownloadAppActivity" />
+        <activity android:name=".Activity.MenuFragment.Activity1" />
+        <activity android:name=".Activity.MenuFragment.Activity2" />
+        <activity android:name=".Activity.MenuFragment.Activity3"></activity>
+    </application>
+
+</manifest>

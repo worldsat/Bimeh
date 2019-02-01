@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".Activity.ProfileActivity">
+
+    <include
+        android:id="@+id/include6"
+        layout="@layout/app_bar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/yekan"
+                android:singleLine="false"
+                android:text="فقط شماره همراه قابل ویرایش است"
+                android:textAlignment="center"
+                android:textColor="#f9d700"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="نام:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="نام خانوادگی:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="کد ملی:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="تاریخ تولد:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="شماره شناسنامه"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="آدرس:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="کد پستی:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/iransans"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="تلفن ثابت:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/editTextProfile8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.7"
+                    android:fontFamily="@font/iransans"
+                    android:singleLine="false"
+                    android:text="-"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextProfile9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+
+                android:fontFamily="@font/yekan"
+                android:hint="تلفن همراه"
+                android:inputType="textPersonName"
+                android:maxLength="11"
+                android:padding="7dp"
+                android:textColorHint="#706f6f"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/scrollView2" />
+
+            <ImageView
+                android:id="@+id/CartMeliUpload"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#00ffffff"
+                android:maxWidth="300dp" />
+
+            <ImageView
+                android:id="@+id/ShenasnameUpload"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#00ffffff"
+                android:maxWidth="300dp" />
+
+            <ImageView
+                android:id="@+id/ImageUpload"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#00ffffff"
+                android:maxWidth="300dp" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/background_button"
+                android:fontFamily="@font/yekan"
+                android:text="ذخیره"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

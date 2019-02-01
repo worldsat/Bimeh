@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">بیمه آسیا</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="LinkServer">http://portal.padidehasia.ir/</string>
+    <string name="userError">لطفا نام کاربری را وارد نمائید</string>
+    <string name="passError">لطفا رمز عبور را وارد نمائید</string>
+    <string name="userPassError">نام کاربری و یا رمز عبور اشتباه می باشد</string>
+    <string name="errorProcess"> خطا در ادامه عملیات</string>
+    <string name="errorGetData">خطا در دریافت اطلاعات</string>
+    <string name="errorInternet">خطای ارتباط با شبکه لطفا مجددا سعی فرمائید</string>
+    <string name="noData">اطلاعاتی برای نمایش وجود ندارد</string>
+    <string name="noCodemelli">کد ملی خود را وارد نمائید</string>
+    <string name="noCodemelliParent">کد ملی معرف را وارد نمائید</string>
+    <string name="noMobile">شماره همراه خود را وارد نمائید</string>
+    <string name="site">http://portal.padidehasia.ir</string>
+
+</resources>
